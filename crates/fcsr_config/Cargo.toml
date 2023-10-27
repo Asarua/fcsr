@@ -1,0 +1,17 @@
+[package]
+name = "fcsr_config"
+version = "0.1.0"
+edition = "2021"
+authors.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fcsr_pkg = { path = "../fcsr_pkg"}
+glob = "0.3.1"
+once_cell.workspace = true
+regex = "1.10.2"
+serde.workspace = true
+serde_json.workspace = true
+colored.workspace = true
+semver = "1.0.20"
